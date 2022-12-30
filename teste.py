@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/home")
+@app.get("/")
 def root():
     return {'mensagem': 'Home'}
 
